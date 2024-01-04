@@ -1,9 +1,24 @@
 import datetime
 import itertools as its
 
+"""exercise preview
+
+write a program that shows via console the numbers between 1,n
+both numbers included, with a breakline between each number
+substituting the following
+    -multiples of three for the word fizz
+    -multiples of 5 for the word buzz
+    -multiples of both for the word fizzbuzz
+    -time it    
+"""
 def speed():
+    
+    """speed
+    calculates time at the beginning of the script
+    calculates time at the end of the script
+    prints end time - start time
+    """
     st = datetime.datetime.now()
-    #insert code here
     
     fizzes = its.cycle([""] * 2 + ["Fizz"])
     buzzes = its.cycle([""] * 4 + ["Buzz"])
