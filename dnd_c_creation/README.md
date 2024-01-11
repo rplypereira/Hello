@@ -1,5 +1,5 @@
-DND Random Character Generator Script:
-Tasks:
+# DND Random Character Generator Script:
+## Tasks:
   -Create Stats
     -All stats in a list
   -Create Character Names
