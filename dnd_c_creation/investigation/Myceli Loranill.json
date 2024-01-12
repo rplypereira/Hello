@@ -1,0 +1,55 @@
+{
+    "name": "Myceli Loranill",
+    "race": "Gnome",
+    "gender": "Female",
+    "class": "Wizard",
+    "hit_die": "d6",
+    "primary_ability": [
+        "Intelligence"
+    ],
+    "saving_throw_proficiencies": [
+        "Intelligence",
+        "Wisdom"
+    ],
+    "armor_proficiencies": [],
+    "weapon_proficiencies": [
+        "Daggers",
+        "Darts",
+        "Slings",
+        "Quarterstaffs",
+        "Light crossbows"
+    ],
+    "skill_proficiencies": [
+        "Arcana",
+        "History",
+        "Insight",
+        "Investigation",
+        "Medicine",
+        "Religion"
+    ],
+    "starting_equipment": [
+        "spellbook"
+    ],
+    "features": [
+        "Spellcasting",
+        "Arcane Recovery"
+    ],
+    "modifiers": {
+        "intelligence": 2,
+        "charisma": 2,
+        "wisdom": 2,
+        "constitution": 2,
+        "strength": 1,
+        "dexterity": 0
+    },
+    "hp": 8,
+    "ac": 11,
+    "stats": {
+        "intelligence": 15,
+        "charisma": 15,
+        "wisdom": 15,
+        "constitution": 14,
+        "strength": 12,
+        "dexterity": 11
+    }
+}

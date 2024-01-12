@@ -1,0 +1,60 @@
+{
+    "gender": "Female",
+    "race": "Elf",
+    "name": "Valbella Galoscohier",
+    "hit_die": "d10",
+    "primary_ability": [
+        "Dexterity",
+        "Wisdom"
+    ],
+    "saving_throw_proficiencies": [
+        "Strength",
+        "Dexterity"
+    ],
+    "armor_proficiencies": [
+        "Light armor",
+        "Medium armor",
+        "Shields"
+    ],
+    "weapon_proficiencies": [
+        "Simple weapons",
+        "Martial weapons"
+    ],
+    "skill_proficiencies": [
+        "Animal Handling",
+        "Athletics",
+        "Insight",
+        "Investigation",
+        "Nature",
+        "Perception",
+        "Stealth",
+        "Survival"
+    ],
+    "starting_equipment": [
+        "scale mail",
+        "two shortswords"
+    ],
+    "features": [
+        "Favored Enemy",
+        "Natural Explorer"
+    ],
+    "modifiers": {
+        "charisma": 2,
+        "strength": 1,
+        "wisdom": 1,
+        "dexterity": 1,
+        "constitution": 0,
+        "intelligence": -1
+    },
+    "char_class": "Ranger",
+    "stats": {
+        "charisma": 15,
+        "strength": 13,
+        "wisdom": 13,
+        "dexterity": 12,
+        "constitution": 11,
+        "intelligence": 9
+    },
+    "hp": 10,
+    "ac": 10
+}

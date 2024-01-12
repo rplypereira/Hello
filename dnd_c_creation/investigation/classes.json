@@ -1,0 +1,176 @@
+{
+    "Barbarian": {
+      "hit_die": "d12",
+      "primary_ability": ["Strength", "Constitution"],
+      "saving_throw_proficiencies": ["Strength", "Constitution"],
+      "armor_proficiencies": ["Light armor", "Medium armor", "Shields"],
+      "weapon_proficiencies": ["Simple weapons", "Martial weapons"],
+      "skill_proficiencies": ["Animal Handling", "Athletics", "Intimidation", "Nature", "Perception","Survival"],
+      "starting_equipment": ["explorer's pack","four javelins"],
+      "features": ["Rage", "Unarmored Defense"],
+      "modifiers": {
+        "Strength": 2,
+        "Constitution": 1
+      }
+    },
+    "Mage": {
+      "hit_die": "d6",
+      "primary_ability": ["Intelligence"],
+      "saving_throw_proficiencies": ["Intelligence", "Wisdom"],
+      "armor_proficiencies": [],
+      "weapon_proficiencies": ["Daggers", "Darts", "Slings", "Quarterstaffs", "Light crossbows"],
+      "skill_proficiencies": ["Arcana", "History", "Insight", "Investigation", "Medicine", "Religion"],
+      "starting_equipment": ["spellbook","arcane focus"],
+      "features": ["Spellcasting", "Arcane Recovery"],
+      "modifiers": {
+        "Intelligence": 2,
+        "Dexterity": 1
+      }
+    },
+    "Bard": {
+        "hit_die": "d8",
+        "primary_ability": ["Dexterity", "Charisma"],
+        "saving_throw_proficiencies": ["Dexterity", "Charisma"],
+        "armor_proficiencies": ["Light armor"],
+        "weapon_proficiencies": ["Simple weapons", "hand crossbows", "longswords", "rapiers", "shortswords"],
+        "skill_proficiencies": [],
+        "starting_equipment": ["diplomat's pack","entertainer's pack"],
+        "features": ["Rage", "Unarmored Defense"],
+        "modifiers": {
+          "Strength": 2,
+          "Constitution": 1
+        }
+    },
+    "Cleric": {
+        "hit_die": "d8",
+        "primary_ability": ["Wisdom"],
+        "saving_throw_proficiencies": ["Wisdom", "Charisma"],
+        "armor_proficiencies": ["Light armor", "Medium armor", "Shields"],
+        "weapon_proficiencies": ["Simple weapons"],
+        "skill_proficiencies": ["History", "Insight", "Medicine", "Persuasion", "Religion"],
+        "starting_equipment": ["a holy symbol", "a prayer pack"],
+        "features": ["Spellcasting", "Divine Domain"],
+        "modifiers": {
+        "Wisdom": 2
+        }
+    },
+    "Druid": {
+        "hit_die": "d8",
+        "primary_ability": ["Wisdom"],
+        "saving_throw_proficiencies": ["Intelligence", "Wisdom"],
+        "armor_proficiencies": ["Light armor", "Medium armor", "Shields (except made of metal)"],
+        "weapon_proficiencies": ["Clubs", "Daggers", "Darts", "Javelins", "Maces", "Quarterstaffs", "Scimitars", "Slings", "Spears"],
+        "skill_proficiencies": ["Arcana", "Animal Handling", "Insight", "Medicine", "Nature", "Perception", "Religion", "Survival"],
+        "starting_equipment": ["wooden shield", "a druidic focus"],
+        "features": ["Druidic", "Spellcasting"],
+        "modifiers": {
+        "Wisdom": 2
+        }
+    },
+    "Fighter": {
+        "hit_die": "d10",
+        "primary_ability": ["Strength", "Dexterity"],
+        "saving_throw_proficiencies": ["Strength", "Constitution"],
+        "armor_proficiencies": ["All armor", "Shields"],
+        "weapon_proficiencies": ["Simple weapons", "Martial weapons"],
+        "skill_proficiencies": ["Acrobatics", "Animal Handling", "Athletics", "History", "Insight", "Intimidation", "Perception", "Survival"],
+        "starting_equipment": ["chain mail", "martial weapon and shield"],
+        "features": ["Fighting Style", "Second Wind"],
+        "modifiers": {
+        "Strength": 2,
+        "Constitution": 1
+        }
+    },
+    "Monk": {
+        "hit_die": "d8",
+        "primary_ability": ["Dexterity", "Wisdom"],
+        "saving_throw_proficiencies": ["Strength", "Dexterity"],
+        "armor_proficiencies": [],
+        "weapon_proficiencies": ["Simple weapons", "Shortswords"],
+        "skill_proficiencies": ["Acrobatics", "Athletics", "History", "Insight", "Religion", "Stealth"],
+        "starting_equipment": ["dungeoneer's pack", "10 darts"],
+        "features": ["Unarmored Defense", "Martial Arts"],
+        "modifiers": {
+        "Dexterity": 2
+        }
+    },
+    "Paladin": {
+        "hit_die": "d10",
+        "primary_ability": ["Strength", "Charisma"],
+        "saving_throw_proficiencies": ["Wisdom", "Charisma"],
+        "armor_proficiencies": ["All armor", "Shields"],
+        "weapon_proficiencies": ["Simple weapons", "Martial weapons"],
+        "skill_proficiencies": ["Athletics", "Insight", "Intimidation", "Medicine", "Persuasion", "Religion"],
+        "starting_equipment": ["chain mail", "holy symbol"],
+        "features": ["Divine Sense", "Lay on Hands"],
+        "modifiers": {
+        "Strength": 2,
+        "Charisma": 1
+        }
+    },
+    "Ranger": {
+        "hit_die": "d10",
+        "primary_ability": ["Dexterity", "Wisdom"],
+        "saving_throw_proficiencies": ["Strength", "Dexterity"],
+        "armor_proficiencies": ["Light armor", "Medium armor", "Shields"],
+        "weapon_proficiencies": ["Simple weapons", "Martial weapons"],
+        "skill_proficiencies": ["Animal Handling", "Athletics", "Insight", "Investigation", "Nature", "Perception", "Stealth", "Survival"],
+        "starting_equipment": ["scale mail", "two shortswords"],
+        "features": ["Favored Enemy", "Natural Explorer"],
+        "modifiers": {
+        "Dexterity": 2
+        }
+    },
+    "Rogue": {
+        "hit_die": "d8",
+        "primary_ability": ["Dexterity"],
+        "saving_throw_proficiencies": ["Dexterity", "Intelligence"],
+        "armor_proficiencies": ["Light armor"],
+        "weapon_proficiencies": ["Simple weapons", "Hand crossbows", "Longswords", "Rapiers", "Shortswords"],
+        "skill_proficiencies": ["Acrobatics", "Athletics", "Deception", "Insight", "Intimidation", "Investigation", "Perception", "Performance", "Persuasion", "Sleight of Hand", "Stealth"],
+        "starting_equipment": ["leather armor", "thieves' tools"],
+        "features": ["Expertise", "Sneak Attack", "Thieves' Cant"],
+        "modifiers": {
+        "Dexterity": 2
+        }
+    },
+    "Sorcerer": {
+        "hit_die": "d6",
+        "primary_ability": ["Charisma"],
+        "saving_throw_proficiencies": ["Constitution", "Charisma"],
+        "armor_proficiencies": [],
+        "weapon_proficiencies": ["Daggers", "Darts", "Slings", "Quarterstaffs", "Light crossbows"],
+        "skill_proficiencies": ["Arcana", "Deception", "Insight", "Intimidation", "Persuasion", "Religion"],
+        "starting_equipment": ["component pouch", "an arcane focus"],
+        "features": ["Spellcasting", "Sorcerous Origin"],
+        "modifiers": {
+        "Charisma": 2
+        }
+    },
+    "Warlock": {
+        "hit_die": "d8",
+        "primary_ability": ["Charisma"],
+        "saving_throw_proficiencies": ["Wisdom", "Charisma"],
+        "armor_proficiencies": ["Light armor"],
+        "weapon_proficiencies": ["Simple weapons"],
+        "skill_proficiencies": ["Arcana", "Deception", "History", "Intimidation", "Investigation", "Nature", "Religion"],
+        "starting_equipment": ["leather armor", "any simple weapon"],
+        "features": ["Eldritch Invocations", "Pact Magic"],
+        "modifiers": {
+        "Charisma": 2
+        }
+    },
+    "Wizard": {
+        "hit_die": "d6",
+        "primary_ability": ["Intelligence"],
+        "saving_throw_proficiencies": ["Intelligence", "Wisdom"],
+        "armor_proficiencies": [],
+        "weapon_proficiencies": ["Daggers", "Darts", "Slings", "Quarterstaffs", "Light crossbows"],
+        "skill_proficiencies": ["Arcana", "History", "Insight", "Investigation", "Medicine", "Religion"],
+        "starting_equipment": ["spellbook"],
+        "features": ["Spellcasting", "Arcane Recovery"],
+        "modifiers": {
+        "Intelligence": 2
+    }
+  }
+}

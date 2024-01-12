@@ -1,0 +1,172 @@
+{
+    "classes":[
+        {
+            "name":"Barbarian",
+            "hit dice":12,
+            "descrition":"",
+            "base stats":{
+                "Strength":0,
+                "Dexterity":0,
+                "Constitution":0,
+                "Intelligence":0,
+                "Wisdom":0,
+                "Charisma":0
+            }
+            
+        },
+        {
+            "name":"Bard",
+            "hit dice":8,
+            "descrition":"",
+            "base stats":{
+                "Strength":0,
+                "Dexterity":0,
+                "Constitution":0,
+                "Intelligence":0,
+                "Wisdom":0,
+                "Charisma":0
+            }
+            
+        },
+        {
+            "name": "Cleric",
+            "hit dice":8,
+            "descrition":"",
+            "base stats":{
+                "Strength":0,
+                "Dexterity":0,
+                "Constitution":0,
+                "Intelligence":0,
+                "Wisdom":0,
+                "Charisma":0
+            }
+            
+        },
+        {
+            "name":"Druid",
+            "hit dice":8,
+            "descrition":"",
+            "base stats":{
+                "Strength":0,
+                "Dexterity":0,
+                "Constitution":0,
+                "Intelligence":0,
+                "Wisdom":0,
+                "Charisma":0
+            }
+            
+        },
+        {
+            "name":"Fighter",
+            "hit dice":10,
+            "descrition":"",
+            "base stats":{
+                "Strength":0,
+                "Dexterity":0,
+                "Constitution":0,
+                "Intelligence":0,
+                "Wisdom":0,
+                "Charisma":0
+            }
+            
+        },
+        {
+            "name":"Monk",
+            "hit dice":8,
+            "descrition":"",
+            "base stats":{
+                "Strength":0,
+                "Dexterity":0,
+                "Constitution":0,
+                "Intelligence":0,
+                "Wisdom":0,
+                "Charisma":0
+            }
+            
+        },
+        {
+            "name":"Paladin",
+            "hit dice":10,
+            "descrition":"",
+            "base stats":{
+                "Strength":0,
+                "Dexterity":0,
+                "Constitution":0,
+                "Intelligence":0,
+                "Wisdom":0,
+                "Charisma":0
+            }
+            
+        },
+        {
+            "name":"Ranger",
+            "hit dice":10,
+            "descrition":"",
+            "base stats":{
+                "Strength":0,
+                "Dexterity":0,
+                "Constitution":0,
+                "Intelligence":0,
+                "Wisdom":0,
+                "Charisma":0
+            }
+            
+        },
+        {
+            "name":"Rogue",
+            "hit dice":8,
+            "descrition":"",
+            "base stats":{
+                "Strength":0,
+                "Dexterity":0,
+                "Constitution":0,
+                "Intelligence":0,
+                "Wisdom":0,
+                "Charisma":0
+            }
+            
+        },
+        {
+            "name":"Sorcerer",
+            "hit dice":6,
+            "descrition":"",
+            "base stats":{
+                "Strength":0,
+                "Dexterity":0,
+                "Constitution":0,
+                "Intelligence":0,
+                "Wisdom":0,
+                "Charisma":0
+            }
+            
+        },
+        {
+            "name":"Warlock",
+            "hit dice":8,
+            "descrition":"",
+            "base stats":{
+                "Strength":0,
+                "Dexterity":0,
+                "Constitution":0,
+                "Intelligence":0,
+                "Wisdom":0,
+                "Charisma":0
+            }
+            
+        },
+        {
+            "name":"Wizard",
+            "hit dice":6,
+            "descrition":"",
+            "base stats":{
+                "Strength":0,
+                "Dexterity":0,
+                "Constitution":0,
+                "Intelligence":0,
+                "Wisdom":0,
+                "Charisma":0
+            }
+            
+        }
+    ]
+}
