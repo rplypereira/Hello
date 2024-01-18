@@ -1,3 +1,5 @@
+# Learn String Manipulation by building a Cipher
+
 text = 'mrttaqrhknsw ih puggrur'
 custom_key = 'happycoding'
 
