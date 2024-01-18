@@ -1,23 +1,34 @@
 {
-    "gender": "Female",
-    "race": "Dwarf",
-    "name": "Kaitlyn Silverblood",
-    "hit_die": "d10",
-    "primary_ability": [
-        "Strength",
-        "Dexterity"
-    ],
-    "saving_throw_proficiencies": [
-        "Strength",
-        "Constitution"
-    ],
+    "ac": 10,
     "armor_proficiencies": [
         "All armor",
         "Shields"
     ],
-    "weapon_proficiencies": [
-        "Simple weapons",
-        "Martial weapons"
+    "char_class": "Fighter",
+    "features": [
+        "Fighting Style",
+        "Second Wind"
+    ],
+    "gender": "Female",
+    "hit_die": "d10",
+    "hp": 10,
+    "modifiers": {
+        "charisma": 0,
+        "constitution": -1,
+        "dexterity": 0,
+        "intelligence": 2,
+        "strength": -1,
+        "wisdom": 1
+    },
+    "name": "Kaitlyn Silverblood",
+    "primary_ability": [
+        "Strength",
+        "Dexterity"
+    ],
+    "race": "Dwarf",
+    "saving_throw_proficiencies": [
+        "Strength",
+        "Constitution"
     ],
     "skill_proficiencies": [
         "Acrobatics",
@@ -33,27 +44,16 @@
         "chain mail",
         "martial weapon and shield"
     ],
-    "features": [
-        "Fighting Style",
-        "Second Wind"
-    ],
-    "modifiers": {
-        "intelligence": 2,
-        "wisdom": 1,
-        "dexterity": 0,
-        "charisma": 0,
-        "constitution": -1,
-        "strength": -1
-    },
-    "char_class": "Fighter",
     "stats": {
-        "intelligence": 15,
-        "wisdom": 12,
-        "dexterity": 11,
         "charisma": 11,
         "constitution": 9,
-        "strength": 8
+        "dexterity": 11,
+        "intelligence": 15,
+        "strength": 8,
+        "wisdom": 12
     },
-    "hp": 10,
-    "ac": 10
+    "weapon_proficiencies": [
+        "Simple weapons",
+        "Martial weapons"
+    ]
 }
