@@ -1,4 +1,4 @@
-const firebaseConfig = {
+let firebaseConfig = {
     apiKey: "AIzaSyDknpGYaLH-sUL9KUfUL0AzEQCd7aIOOgw",
     authDomain: "personalblog-fe4da.firebaseapp.com",
     projectId: "personalblog-fe4da",
